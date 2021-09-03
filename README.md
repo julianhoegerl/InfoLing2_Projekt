@@ -2,7 +2,7 @@
 
 ## Datensätze:
 - Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/detecting-insults-in-social-commentary.
-- Hate speech lexicon von Hatebase
+- Hate speech lexicon von Hatebase (https://hatebase.org/search_results)
 
 ## Classifiers:
 - Named Entity Extraction
