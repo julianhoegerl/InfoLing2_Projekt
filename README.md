@@ -1,6 +1,15 @@
 # InfoLing2_Projekt
 
-## Datensätze:
+## Table of contents
+* [General info](#general-info)
+* [Datasets](#datasets)
+* [Classifiers](#classifiers)
+
+## General info:
+Abschlussprojekt des Kurses Informationslinguistik 2 an der Universität Regensburg von:
+- Julian Högerl, julian.hoegerl@stud.uni-regensburg.de, Matrikel-Nr: 2065797
+
+## Datasets:
 - Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/detecting-insults-in-social-commentary.
 - Hate speech lexicon von Hatebase (https://hatebase.org/search_results)
 
