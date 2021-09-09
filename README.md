@@ -10,8 +10,10 @@ Abschlussprojekt des Kurses Informationslinguistik 2 an der Universität Regensb
 - Julian Högerl, julian.hoegerl@stud.uni-regensburg.de, Matrikel-Nr: 2065797
 
 ## Datasets:
-- Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/detecting-insults-in-social-commentary.
-- Hate speech lexicon von Hatebase (https://hatebase.org/search_results)
+Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/detecting-insults-in-social-commentary.
+- .tsv files for distilbert-base-uncased-finetuned-sst-2-english
+
+Hate speech lexicon von Hatebase (https://hatebase.org/search_results)
 
 ## Classifiers:
 - Named Entity Extraction
