@@ -8,6 +8,7 @@
 * [Used libraries and packages](#used-libraries-and-packages)
 * [Saved Model (RoBERTa)](#saved-model)
 * [How to use the tool](#how-to-use-the-tool)
+* [Important notes](#important-notes)
 
 ## General info:
 Abschlussprojekt des Kurses Informationslinguistik 2 an der Universität Regensburg von:
@@ -113,4 +114,6 @@ Simply follow the Tutorial of "Learning Orbis": https://www.youtube.com/watch?v=
 5. Set path to model
 6. Run the notebook
 
+## Important notes
+Mir ist leider relativ spät aufgefallen, dass ich die Daten für die FARM-Klassifikatoren nicht mit der cleaning function in neue csv-Dateien bzw. tsv-Dateien abgespeichert habe. Da das Trainieren und Evaluieren sehr viel Zeit in Anspruch nimmt, bleibt mir dafür auch leider keine Zeit mehr. Ich bitte um entschuldigung.
 
