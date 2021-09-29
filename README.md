@@ -23,3 +23,9 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
 - RoBERTa
 - ALBERT v2
 - XLMRoBERTa
+
+## Python Notebooks
+- InfoLing2_Projekt_scikit_learn.ipynb
+- InfoLing2_Projekt_FARM.ipynb
+- statistical_analysis.ipynb
+- InfoLing2_Projekt_perform_prediction.ipynb
