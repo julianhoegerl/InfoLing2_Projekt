@@ -4,6 +4,10 @@
 * [General info](#general-info)
 * [Datasets](#datasets)
 * [Classifiers](#classifiers)
+* [Python Notebooks](#python-notebooks)
+* [Used libraries and packages](#used-libraries-and-packages)
+* [Saved Model (RoBERTa)](#saved-model)
+* [How to use the tool](#how-to-use-the-tool)
 
 ## General info:
 Abschlussprojekt des Kurses Informationslinguistik 2 an der Universität Regensburg von:
@@ -32,16 +36,81 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
 - statistical_analysis.ipynb
   - All statistical analyses and comparisons of the classifiers were performed here
 - InfoLing2_Projekt_perform_prediction.ipynb
-  - This is where the implementation of the tool takes place, but before that you need a dataset of scraped YouTube comments in csv format 
+  - This is where the implementation of the tool takes place, but before that you need a dataset of scraped YouTube comments in csv format
 
-## Saved Model (RoBERTa)
+## Used libraries and packages
+- InfoLing2_Projekt_scikit_learn.ipynb
+  - scipy: for stats
+  - stats: for performing t-tests
+  - seaborn: for plotting
+  - sklearn: for classifiers
+  - pandas: Allows you to quickly and effectively manipulate our datasets through the DataFrame object, as well as read and write data in various formats (CSV, Txt, etc.)
+  - re: for cleaning Comments with regex
+  - json: to dump results into json-file
+  - preprocessor: for cleaning comments
+  - cross_val_score: for computing cross-validation
+  - CountVectorizer: for vectorizing comments
+  - accuracy_score: for computing accuracy
+  - classification_report: not needed for tool but useful for getting quick overview 
+  - f1_score: for computing f1_score
+  - svm: classifier
+  - SVC: needed for svm
+  - BernoulliNB: classifier
+  - LogisticRegression: classifier 
+- InfoLing2_Projekt_FARM.ipynb
+  - torch: to fetch the right device
+  - farm
+    - Tokenizer
+    - TextClassificationProcessor
+    - DataSilo
+    - DataSiloForCrossVal
+    - LanguageModel
+    - TextClassificationHead
+    - AdaptiveModel
+    - initialize_optimizer
+    - Trainer
+    - EarlyStopping
+    - set_all_seeds
+    - MLFlowLogger
+    - initialize_device_settings
+    - Evaluator
+    - simple_accuracy
+    - register_metrics
+    - AutoTokenizer
+  - scipy: for stats
+  - stats: for t-test
+  - pandas: Allows you to quickly and effectively manipulate our datasets through the DataFrame object, as well as read and write data in various formats (CSV, Txt, etc.)
+  - matthews_corrcoef
+  - f1_score
+  - logging: for logging
+  - json: for dumping results of cross-validation
+  - mlflow: for tracking the experiment
+  - Path: for path specifications
+- statistical_analysis.ipynb
+  - json: for reading the saved json-files produced in InfoLing2_Projekt_scikit_learn.ipynb and InfoLing2_Projekt_FARM.ipynb
+  - pandas: Allows you to quickly and effectively manipulate our datasets through the DataFrame object, as well as read and write data in various formats (CSV, Txt, etc.)
+  - scipy: for stats
+  - stats: for performing t-tests
+  - seaborn: for plotting
+  - matplotlib: only for customizing the produced plots (e.g adding legend)
+- InfoLing2_Projekt_perform_prediction.ipynb
+  - torch: to fetch the right device
+  - farm
+    - Inferencer: to apply saved model on dictionary
+  - pandas: Allows you to quickly and effectively manipulate our datasets through the DataFrame object, as well as read and write data in various formats (CSV, Txt, etc.)
+  - PrettyPrinter: for printing inference result
+
+## Saved Model 
+Best fold of RoBERTa
 - https://drive.google.com/drive/folders/1nhw2pdpXPxmEGLrN3rP3CQEP-UajSvkE?usp=sharing
 
-## Benutzung des Tools
+## How to use the tool
 1. Scraping the comments of a YouTube video<br>
 Simply follow the Tutorial of "Learning Orbis": https://www.youtube.com/watch?v=uD58-EHwaeI
 2. Upload your created .csv-file into your python environment
-3. Set the path of the .csv-file
-4. Run the notebook
+3. Set the path to the .csv-file
+4. Upload the model into your python environment
+5. Set path to model
+6. Run the notebook
 
 
