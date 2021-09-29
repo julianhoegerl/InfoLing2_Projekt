@@ -28,7 +28,7 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
 - InfoLing2_Projekt_scikit_learn.ipynb
   - In diesem Notebook wurden SVM, Naïve Bayes und Logistic Regression mit sci-kit learn implementiert
 - InfoLing2_Projekt_FARM.ipynb
-  - In diesem Notebook wurden BERT, DistilBERT, DistilBERT SST2, RoBERTa, ALBERT v2 und XLMRoBERTa von sci-kit learn implementiert
+  - In diesem Notebook wurden alle transformer-basierten Modelle (BERT, DistilBERT, DistilBERT SST2, RoBERTa, ALBERT v2 und XLMRoBERTa) mit FARM implementiert
 - statistical_analysis.ipynb
   - Hier wurden alle statistischen Analysen der Klassifikatoren durchgeführt
   - Vergleich zwischen der Baseline und den anderen Klassifikatoren findet ebenfalls hier statt
