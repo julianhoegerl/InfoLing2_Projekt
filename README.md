@@ -37,3 +37,9 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
 
 ## Saved Model (RoBERTa)
 - https://drive.google.com/drive/folders/1nhw2pdpXPxmEGLrN3rP3CQEP-UajSvkE?usp=sharing
+
+## Benutzung des Tools
+### Scrapen der Kommentare eines YouTube-Videos
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
+uD58-EHwaeI
