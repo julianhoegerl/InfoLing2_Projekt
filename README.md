@@ -26,20 +26,22 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
 
 ## Python Notebooks
 - InfoLing2_Projekt_scikit_learn.ipynb
-  - In diesem Notebook wurden SVM, Naïve Bayes und Logistic Regression mit sci-kit learn implementiert
+  - In this notebook SVM, Naïve Bayes and Logistic Regression were implemented with sci-kit learn.
 - InfoLing2_Projekt_FARM.ipynb
-  - In diesem Notebook wurden alle transformer-basierten Modelle (BERT, DistilBERT, DistilBERT SST2, RoBERTa, ALBERT v2 und XLMRoBERTa) mit FARM implementiert
+  - In this notebook, all transformer-based models (BERT, DistilBERT, DistilBERT SST2, RoBERTa, ALBERT v2 and XLMRoBERTa) were implemented with FARM
 - statistical_analysis.ipynb
-  - Hier wurden alle statistischen Analysen der Klassifikatoren durchgeführt
-  - Vergleich zwischen der Baseline und den anderen Klassifikatoren findet ebenfalls hier statt
+  - All statistical analyses and comparisons of the classifiers were performed here
 - InfoLing2_Projekt_perform_prediction.ipynb
-  - Hier findet die Implementation des tools statt, zuvor braucht man aber noch einen Datensatz gescrapter YouTube-Kommentare im csv-Format 
+  - This is where the implementation of the tool takes place, but before that you need a dataset of scraped YouTube comments in csv format 
 
 ## Saved Model (RoBERTa)
 - https://drive.google.com/drive/folders/1nhw2pdpXPxmEGLrN3rP3CQEP-UajSvkE?usp=sharing
 
 ## Benutzung des Tools
-### Scrapen der Kommentare eines YouTube-Videos
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+1. Scraping the comments of a YouTube video<br>
+Simply follow the Tutorial of "Learning Orbis": https://www.youtube.com/watch?v=uD58-EHwaeI
+2. Upload your created .csv-file into your python environment
+3. Set the path of the .csv-file
+4. Run the notebook
 
-uD58-EHwaeI
+
