@@ -29,3 +29,6 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
 - InfoLing2_Projekt_FARM.ipynb
 - statistical_analysis.ipynb
 - InfoLing2_Projekt_perform_prediction.ipynb
+
+## Saved Model (RoBERTa)
+- https://drive.google.com/drive/folders/1nhw2pdpXPxmEGLrN3rP3CQEP-UajSvkE?usp=sharing
