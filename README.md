@@ -83,8 +83,8 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
   - scipy: for stats
   - stats: for t-test
   - pandas: Allows you to quickly and effectively manipulate our datasets through the DataFrame object, as well as read and write data in various formats (CSV, Txt, etc.)
-  - matthews_corrcoef
-  - f1_score
+  - matthews_corrcoef: for computing different metrics
+  - f1_score: for computing different f1-metrics
   - logging: for logging
   - json: for dumping results of cross-validation
   - mlflow: for tracking the experiment
