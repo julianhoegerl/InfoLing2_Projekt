@@ -112,10 +112,10 @@ Best fold of RoBERTa
 1. Scraping the comments of a YouTube video<br>
 Simply follow the Tutorial of "Learning Orbis": https://www.youtube.com/watch?v=uD58-EHwaeI
 2. Upload your created .csv-file into your python environment
-3. Set the path to the .csv-file
+3. Set the path to the .csv-file in InfoLing2_Projekt_perform_prediction.ipynb
 4. Upload the model into your python environment
-5. Set path to model
-6. Run the notebook
+5. Set path to model in InfoLing2_Projekt_perform_prediction.ipynb
+6. Run the notebook InfoLing2_Projekt_perform_prediction.ipynb
 
 ## Important notes
 Mir ist leider relativ spät aufgefallen, dass ich die Daten für die FARM-Klassifikatoren nicht mit der cleaning function in neue csv-Dateien bzw. tsv-Dateien abgespeichert habe. Da das Trainieren und Evaluieren sehr viel Zeit in Anspruch nimmt, bleibt mir dafür auch leider keine Zeit mehr. Ich bitte um entschuldigung.
