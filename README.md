@@ -39,6 +39,7 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
   - All statistical analyses and comparisons of the classifiers were performed here
 - InfoLing2_Projekt_perform_prediction.ipynb
   - This is where the implementation of the tool takes place, but before that you need a dataset of scraped YouTube comments in csv format
+  - I would recommend using Google Colab for this notebook
 
 ## Used libraries and packages
 - InfoLing2_Projekt_scikit_learn.ipynb
