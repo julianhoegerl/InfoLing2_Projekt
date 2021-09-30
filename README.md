@@ -49,7 +49,7 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
   - pandas: Allows you to quickly and effectively manipulate our datasets through the DataFrame object, as well as read and write data in various formats (CSV, Txt, etc.)
   - re: for cleaning Comments with regex
   - json: to dump results into json-file
-  - preprocessor: for cleaning comments
+  - preprocessor from tweet-preprocessor: for cleaning comments
   - cross_val_score: for computing cross-validation
   - CountVectorizer: for vectorizing comments
   - accuracy_score: for computing accuracy
@@ -88,6 +88,7 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
   - json: for dumping results of cross-validation
   - mlflow: for tracking the experiment
   - Path: for path specifications
+  - preprocessor from tweet-preprocessor: for cleaning comments
 - statistical_analysis.ipynb
   - json: for reading the saved json-files produced in InfoLing2_Projekt_scikit_learn.ipynb and InfoLing2_Projekt_FARM.ipynb
   - pandas: Allows you to quickly and effectively manipulate our datasets through the DataFrame object, as well as read and write data in various formats (CSV, Txt, etc.)
