@@ -16,7 +16,7 @@ Abschlussprojekt des Kurses Informationslinguistik 2 an der Universität Regensb
 
 ## Datasets:
 Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/detecting-insults-in-social-commentary.
-- .tsv files for distilbert-base-uncased-finetuned-sst-2-english
+- .tsv files for classifiers implemented with FARM
 
 ## Classifiers:
 - Support Vector Machine
@@ -34,6 +34,7 @@ Detecting Insults in Social Commentary;. Available from: https://kaggle.com/c/de
   - In this notebook SVM, Naïve Bayes and Logistic Regression were implemented with sci-kit learn.
 - InfoLing2_Projekt_FARM.ipynb
   - In this notebook, all transformer-based models (BERT, DistilBERT, DistilBERT SST2, RoBERTa, ALBERT v2 and XLMRoBERTa) were implemented with FARM
+  - for this notebook you have to use Google Colab
 - statistical_analysis.ipynb
   - All statistical analyses and comparisons of the classifiers were performed here
 - InfoLing2_Projekt_perform_prediction.ipynb
